@@ -1,0 +1,12 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>VCSTest</title></head>
+<body>
+  <h1>Next 10 Rail Services</h1>
+  <pre id="out">Loading…</pre>
+  <script>
+    fetch('rail_services.json')
+      .then(r => r.json())
+      .then(j => document.getElementById('out').textContent = JSON.stringify(j, null, 2))
+      .catch(e => document.getElementById('out').textContent = 'Error: ' + e);
+  </script>
+</body></html>
