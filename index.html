@@ -1,12 +1,56 @@
 <!doctype html>
-<html><head><meta charset="utf-8"><title>VCSTest</title></head>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VCSTest – Repository File List</title>
+  <style>
+    body { font: 14px/1.4 system-ui, sans-serif; margin: 2rem; background: #fafafa; }
+    h1 { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; background: white; }
+    th, td { border: 1px solid #ddd; padding: 8px; }
+    th { background: #f0f0f0; text-align: left; }
+    tr:hover { background: #f9f9f9; }
+    a { color: #0070c9; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
 <body>
-  <h1>Next 10 Rail Services</h1>
-  <pre id="out">Loading…</pre>
+  <h1>Files in VCSTest Repository</h1>
+  <p>This page lists all files in the root of your GitHub repository.</p>
+  <table id="fileTable">
+    <thead>
+      <tr><th>File Name</th><th>Type</th><th>Size (bytes)</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
   <script>
-    fetch('rail_services.json')
-      .then(r => r.json())
-      .then(j => document.getElementById('out').textContent = JSON.stringify(j, null, 2))
-      .catch(e => document.getElementById('out').textContent = 'Error: ' + e);
+    const owner = 'erichmullerquin-arch';
+    const repo = 'VCSTest';
+
+    async function loadFiles() {
+      const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/`);
+      if (!res.ok) throw new Error(`GitHub API error: ${res.status}`);
+      const files = await res.json();
+
+      const tbody = document.querySelector('#fileTable tbody');
+      files.forEach(file => {
+        const tr = document.createElement('tr');
+        const link = `https://${owner}.github.io/${repo}/${file.name}`;
+        tr.innerHTML = `
+          <td><a href="${link}" target="_blank">${file.name}</a></td>
+          <td>${file.type}</td>
+          <td>${file.size ?? ''}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    loadFiles().catch(err => {
+      document.body.insertAdjacentHTML('beforeend',
+        `<p><strong>Error loading file list:</strong> ${err.message}</p>`);
+    });
   </script>
-</body></html>
+</body>
+</html>
