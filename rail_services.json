@@ -9,6 +9,7 @@
       "arrival_time": "2025-10-10T11:15:00+01:00",
       "platform": "5",
       "status": "On time"
+      "logo": "https://erichmullerquin-arch.github.io/VCSTest/1.png"
     },
     {
       "service_id": "IE1235",
