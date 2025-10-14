@@ -8,7 +8,7 @@
       "departure_time": "2025-10-10T08:30:00+01:00",
       "arrival_time": "2025-10-10T11:15:00+01:00",
       "platform": "5",
-      "status": "On time"
+      "status": "On time",
       "logo": "https://erichmullerquin-arch.github.io/VCSTest/1.png"
     },
     {
