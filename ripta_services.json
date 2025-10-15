@@ -1,0 +1,185 @@
+{
+  "services": [
+    {
+      "service_id": "IE2345",
+      "train_number": "1234",
+      "departure_station": "Broad Street Terminus",
+      "destination_station": "Broad Street Terminus",
+      "departure_time": "08:30:00",
+      "arrival_time": "11:15:00",
+      "platform": "5",
+      "status": "On time",
+      "logo": "https://erichmullerquin-arch.github.io/VCSTest/1.png"
+    },
+    {
+      "service_id": "IE1235",
+      "train_number": "1235",
+      "departure_station": "Broad & Thurbers",
+      "destination_station": "Broad & Thurbers",
+      "departure_time": "08:45:00",
+      "arrival_time": "11:30:00",
+      "platform": "2",
+      "status": "On time"
+    },
+    {
+      "service_id": "IE2230",
+      "train_number": "2230",
+      "departure_station": "Trinity Square (Broad & Elmwood)",
+      "destination_station": "Trinity Square (Broad & Elmwood)",
+      "departure_time": "09:00:00",
+      "arrival_time": "11:10:00",
+      "platform": "1",
+      "status": "Delayed 5 min"
+    },
+    {
+      "service_id": "IE3321",
+      "train_number": "3321",
+      "departure_station": "Kennedy Plaza (Providence)",
+      "destination_station": "Kennedy Plaza (Providence)",
+      "departure_time": "09:05:00",
+      "arrival_time": "11:35:00",
+      "platform": "3",
+      "status": "On time"
+    },
+    {
+      "service_id": "IE4440",
+      "train_number": "4440",
+      "departure_station": "Providence Station",
+      "destination_station": "Providence Station",
+      "departure_time": "09:10:00",
+      "arrival_time": "11:45:00",
+      "platform": "4",
+      "status": "Cancelled"
+    },
+    {
+      "service_id": "IE5562",
+      "train_number": "5562",
+      "departure_station": "Charlesgate (North Main & Doyle)",
+      "destination_station": "Charlesgate (North Main & Doyle)",
+      "departure_time": "09:30:00",
+      "arrival_time": "11:55:00",
+      "platform": "1",
+      "status": "On time"
+    },
+    {
+      "service_id": "IE6675",
+      "train_number": "6675",
+      "departure_station": "9th Street (North Main & 9th)",
+      "destination_station": "9th Street (North Main & 9th)",
+      "departure_time": "09:40:00",
+      "arrival_time": "12:15:00",
+      "platform": "6",
+      "status": "On time"
+    },
+    {
+      "service_id": "IE7780",
+      "train_number": "7780",
+      "departure_station": "Collyer Park (Main & Conant)",
+      "destination_station": "Collyer Park (Main & Conant)",
+      "departure_time": "09:50:00",
+      "arrival_time": "12:35:00",
+      "platform": "4",
+      "status": "On time"
+    },
+    {
+      "service_id": "IE8892",
+      "train_number": "8892",
+      "departure_station": "Pawtucket-Central Falls Transit Center",
+      "destination_station": "Pawtucket-Central Falls Transit Center",
+      "departure_time": "10:00:00",
+      "arrival_time": "12:00:00",
+      "platform": "3",
+      "status": "Delayed 10 min"
+    },
+   {
+      "service_id": "IE1235",
+      "train_number": "1235",
+      "departure_station": "TF Green Airport",
+      "destination_station": "TF Green Airport",
+      "departure_time": "08:45:00",
+      "arrival_time": "11:30:00",
+      "platform": "2",
+      "status": "On time"
+    },
+    {
+      "service_id": "IE2230",
+      "train_number": "2230",
+      "departure_station": "Shaw's (Warwick) - Warwick Ave",
+      "destination_station": "Shaw's (Warwick) - Warwick Ave",
+      "departure_time": "09:00:00",
+      "arrival_time": "11:10:00",
+      "platform": "1",
+      "status": "Delayed 5 min"
+    },
+    {
+      "service_id": "IE3321",
+      "train_number": "3321",
+      "departure_station": "RI Hospital (Eddy St Entrance)	",
+      "destination_station": "RI Hospital (Eddy St Entrance)	",
+      "departure_time": "09:05:00",
+      "arrival_time": "11:35:00",
+      "platform": "3",
+      "status": "On time"
+    },
+    {
+      "service_id": "IE4440",
+      "train_number": "4440",
+      "departure_station": "Kennedy Plaza (Providence)",
+      "destination_station": "Kennedy Plaza (Providence)",
+      "departure_time": "09:10:00",
+      "arrival_time": "11:45:00",
+      "platform": "4",
+      "status": "Cancelled"
+    },
+    {
+      "service_id": "IE5562",
+      "train_number": "5562",
+      "departure_station": "Tunnel & Thayer	Hope & Olney",
+      "destination_station": "Tunnel & Thayer	Hope & Olney",
+      "departure_time": "09:30:00",
+      "arrival_time": "11:55:00",
+      "platform": "1",
+      "status": "On time"
+    },
+    {
+      "service_id": "IE6675",
+      "train_number": "6675",
+      "departure_station": "Hope & Rochambeau",
+      "destination_station": "Hope & Rochambeau",
+      "departure_time": "09:40:00",
+      "arrival_time": "12:15:00",
+      "platform": "6",
+      "status": "On time"
+    },
+    {
+      "service_id": "IE7780",
+      "train_number": "7780",
+      "departure_station": "Pawtucket-Central Falls Transit Center",
+      "destination_station": "Pawtucket-Central Falls Transit Center",
+      "departure_time": "09:50:00",
+      "arrival_time": "12:35:00",
+      "platform": "4",
+      "status": "On time"
+    },
+    {
+      "service_id": "IE8892",
+      "train_number": "8892",
+      "departure_station": "Pawtucket-Central Falls Transit Center",
+      "destination_station": "Pawtucket-Central Falls Transit Center",
+      "departure_time": "10:00:00",
+      "arrival_time": "12:00:00",
+      "platform": "3",
+      "status": "Delayed 10 min"
+    },
+    {
+      "service_id": "IE9900",
+      "train_number": "9900",
+      "departure_station": "Roosevelt & Main",
+      "destination_station": "Roosevelt & Main",
+      "departure_time": "10:15:00",
+      "arrival_time": "12:45:00",
+      "platform": "7",
+      "status": "On time"
+    }
+  ]
+}
