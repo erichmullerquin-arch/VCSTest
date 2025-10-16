@@ -114,8 +114,8 @@
     {
       "service_id": "IE3321",
       "train_number": "3321",
-      "departure_station": "RI Hospital (Eddy St Entrance)	",
-      "destination_station": "RI Hospital (Eddy St Entrance)	",
+      "departure_station": "RI Hospital (Eddy St Entrance)",
+      "destination_station": "RI Hospital (Eddy St Entrance)",
       "departure_time": "09:05:00",
       "arrival_time": "11:35:00",
       "platform": "3",
@@ -182,4 +182,5 @@
       "status": "On time"
     }
   ]
+
 }
